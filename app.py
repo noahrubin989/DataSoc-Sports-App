@@ -9,18 +9,17 @@ import numpy as np
 app = MultiApp()
 
 st.markdown("""
-            # Finance App
+            # Sports Analytics Dashboard App
             
-            ### Created By: Noah Rubin
-            📊 [LinkedIn](https://www.linkedin.com/in/noah-rubin1/)  
+            ### Created By: DataSoc Education Portfolio
+            📊 [LinkedIn](https://www.linkedin.com/company/datasoc/)  
             
-            🧑🏽‍💻 [GitHub](https://github.com/noahrubin989)
             """)
 
 # Add all your applications here
 # app.add_app("Home", home.app)
 app.add_app("Explore this app", explore_dataset.app)
-app.add_app("Learn about me", about.app)
+app.add_app("Learn about DataSoc", about.app)
 
 
 

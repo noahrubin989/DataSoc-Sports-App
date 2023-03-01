@@ -13,6 +13,15 @@ import numpy as npa
 import torch
 import torch.nn as nn
 import numpy as np
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
 def read_clean_data():
     return pd.read_csv('data/basketball_data_cleaned.csv')
@@ -99,15 +108,11 @@ def app():
         
     with tab3:
         permission_to_plot = False
-        st.write(f'Plotly Version = {plotly.__version__}')
-        
-        analysis = st.selectbox('How would you like to perform your analysis', ['Continuous vs Categorical', 'Continuous vs Continuous'])
-        if analysis == 'Continuous vs Categorical':
-            st.write('ghj')
-            
+        analysis = st.selectbox('How would you like to perform your analysis', ['Continuous vs Continuous'])
+
         if analysis == 'Continuous vs Continuous':
             if st.button('Correlation Heatmap'):
-                corr = df.drop(columns='Year').corr(numeric_only=True)
+                corr = df.drop(columns='Year').corr()
                 mask = np.triu(np.ones_like(corr, dtype=bool))
                 corr_plot = corr.mask(mask)
 
@@ -181,12 +186,17 @@ def app():
                 y = df[ycol]
                 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
                 if st.button('Build Linear Regression'):
-                    from sklearn.linear_model import Ridge
-                    from sklearn.model_selection import GridSearchCV
-                    from sklearn.metrics import mean_squared_error, r2_score
                     with st.spinner('Training Linear Regression Model...'):
-                        time.sleep(5)
-                    st.success('Model Trained!')
+                        model = Ridge(alpha=0.5)
+                        model.fit(X_train, y_train)
+                        r2 = model.score(X_test, y_test)
+                        mse = mean_squared_error(y_test, X_test)
+                        mae = mean_absolute_error(y_test, X_test)
+                        
+                        st.success('Model Trained!')
+                        st.markdown(f"$R^2$={np.round(r2, 3)}")
+                        st.markdown(f"$MSE$={np.round(mse, 3)}")
+                        st.markdown(f"$MAE$={np.round(mae, 3)}")
 
                     # # Set up the parameter grid for Ridge Regression
                     # param_grid = {'alpha': [0.1, 0.5, 1, 2, 5, 10]}
@@ -210,9 +220,13 @@ def app():
                     with st.spinner('Training Random Forest Regression Model...'):
                         model = RandomForestRegressor().fit(X_train, y_train)
                         r2 = model.score(X_test, y_test)
+                        mse = mean_squared_error(y_test, X_test)
+                        mae = mean_absolute_error(y_test, X_test)
                         time.sleep(5)
                     st.success('Model Trained!')
                     st.markdown(f"$R^2$={np.round(r2, 3)}")
+                    st.markdown(f"$MSE$={np.round(mse, 3)}")
+                    st.markdown(f"$MAE$={np.round(mae, 3)}")
                 if st.button('Build Neural Network'):
                     with st.spinner('Training Neural Network...'):
                         time.sleep(5)
@@ -225,7 +239,6 @@ def app():
                         
                     struct = len(Xcols)
                     
-                    # HOLY SHIT I GOT IT WORKING OH MY GOD LETS GOOOOOOOOOOO
                     X_train = X_train.to_numpy().astype('float32')
                     y_train = y_train.to_numpy().astype('float32')
                     X_test = X_test.to_numpy().astype('float32')
@@ -309,6 +322,7 @@ def app():
                 time.sleep(8)
             st.success('Model Trained!')
             df_senti = pd.read_csv('sentiment.csv')
+            st.write(df_senti)
             st.line_chart(df_senti['plot'])
             
     # # TODO: Use Ray to do HPO!!

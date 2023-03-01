@@ -1,78 +1,137 @@
-,label,score,plot
-0,1,0.9998325109481812,0.9998325109481812
-1,1,0.9956740736961365,0.9956740736961365
-2,1,0.9996641874313354,0.9996641874313354
-3,1,0.999763548374176,0.999763548374176
-4,1,0.9996393918991089,0.9996393918991089
-5,1,0.9996594190597534,0.9996594190597534
-6,-1,0.9955386519432068,-0.9955386519432068
-7,1,0.9473749399185181,0.9473749399185181
-8,-1,0.9983135461807251,-0.9983135461807251
-9,-1,0.9991224408149719,-0.9991224408149719
-10,1,0.995371401309967,0.995371401309967
-11,1,0.9977533221244812,0.9977533221244812
-12,1,0.8767158389091492,0.8767158389091492
-13,1,0.9826617240905762,0.9826617240905762
-14,-1,0.9830670952796936,-0.9830670952796936
-15,-1,0.9664596915245056,-0.9664596915245056
-16,1,0.9994301199913025,0.9994301199913025
-17,1,0.7637247443199158,0.7637247443199158
-18,1,0.999680757522583,0.999680757522583
-19,-1,0.9991649389266968,-0.9991649389266968
-20,1,0.9699273705482483,0.9699273705482483
-21,1,0.99601811170578,0.99601811170578
-22,1,0.9953697323799133,0.9953697323799133
-23,1,0.99843829870224,0.99843829870224
-24,1,0.999546468257904,0.999546468257904
-25,1,0.9994820952415466,0.9994820952415466
-26,1,0.9940582513809204,0.9940582513809204
-27,1,0.9836204051971436,0.9836204051971436
-28,-1,0.9058363437652588,-0.9058363437652588
-29,1,0.9739882349967957,0.9739882349967957
-30,-1,0.8980167508125305,-0.8980167508125305
-31,-1,0.8778608441352844,-0.8778608441352844
-32,-1,0.981025755405426,-0.981025755405426
-33,1,0.9994235038757324,0.9994235038757324
-34,1,0.7990378737449646,0.7990378737449646
-35,-1,0.9973471164703369,-0.9973471164703369
-36,1,0.9962843656539917,0.9962843656539917
-37,-1,0.9113661646842957,-0.9113661646842957
-38,-1,0.9955794215202332,-0.9955794215202332
-39,1,0.999729573726654,0.999729573726654
-40,1,0.9716916084289551,0.9716916084289551
-41,1,0.9992485642433167,0.9992485642433167
-42,1,0.9929785132408142,0.9929785132408142
-43,1,0.9696428179740906,0.9696428179740906
-44,1,0.9987779259681702,0.9987779259681702
-45,1,0.9998618364334106,0.9998618364334106
-46,1,0.999301552772522,0.999301552772522
-47,1,0.995205819606781,0.995205819606781
-48,-1,0.9895007014274597,-0.9895007014274597
-49,1,0.9990168809890747,0.9990168809890747
-50,1,0.9970536231994629,0.9970536231994629
-51,1,0.9996156692504883,0.9996156692504883
-52,1,0.9998641014099121,0.9998641014099121
-53,1,0.9988722205162048,0.9988722205162048
-54,1,0.9994841814041138,0.9994841814041138
-55,1,0.9980903267860413,0.9980903267860413
-56,-1,0.5493199825286865,-0.5493199825286865
-57,-1,0.99978107213974,-0.99978107213974
-58,1,0.9995973706245422,0.9995973706245422
-59,1,0.9991247057914734,0.9991247057914734
-60,1,0.9991185069084167,0.9991185069084167
-61,-1,0.998562753200531,-0.998562753200531
-62,1,0.9996533393859863,0.9996533393859863
-63,1,0.9945577383041382,0.9945577383041382
-64,-1,0.9992353916168213,-0.9992353916168213
-65,-1,0.8477687239646912,-0.8477687239646912
-66,1,0.9996089339256287,0.9996089339256287
-67,1,0.9987063407897949,0.9987063407897949
-68,1,0.9992977380752563,0.9992977380752563
-69,-1,0.6848902106285095,-0.6848902106285095
-70,1,0.9994847774505615,0.9994847774505615
-71,-1,0.8603909611701965,-0.8603909611701965
-72,1,0.9483669400215149,0.9483669400215149
-73,1,0.9997091889381409,0.9997091889381409
-74,1,0.9995821118354797,0.9995821118354797
-75,1,0.999734103679657,0.999734103679657
-76,1,0.9995675683021545,0.9995675683021545
+label,score,plot,Sentences
+1,0.9998325109481812,0.9998325109481812,"
+Taking a Moment to Appreciate the Greatness of LeBron James
+Scoring leader"
+1,0.9956740736961365,0.9956740736961365,Basketball savant
+1,0.9996641874313354,0.9996641874313354,Master of reinvention
+1,0.999763548374176,0.999763548374176,"LeBron James has been a pleasure to behold for the last 20 years.
+
+
+38,390"
+1,0.9996393918991089,0.9996393918991089,That is how many points LeBron James has scored (so far) in his illustrious NBA career
+1,0.9996594190597534,0.9996594190597534,"This week he passed Kareem Abdul-Jabbar to become the league’s all-time scoring leader, a record that many thought would never be broken"
+-1,0.9955386519432068,-0.9955386519432068,"The unfortunate reality for LeBron James is that he came of age in the social media era, where everything is put under a microscope"
+1,0.9473749399185181,0.9473749399185181,"Throughout his career, he has been compared to Michael Jordan, which has been fodder for sports debate shows like First Take and Undisputed for years"
+-1,0.9983135461807251,-0.9983135461807251,"Lost in all the superlatives of Finals records, killer mentality, and era strength is the fact that we may be taking him for granted"
+-1,0.9991224408149719,-0.9991224408149719,That we may be ignoring the presence of one of the all-time greats to ever pick up a basketball
+1,0.995371401309967,0.995371401309967,In the days before he passed Kareem for the scoring record he also passed Mark Jackson and Steve Nash for 4th in all-time assists as well
+1,0.9977533221244812,0.9977533221244812,"So let’s take a moment to reflect on the greatness that we have witnessed from LeBron James over the last two decades.
+
+Living Up to the Hype
+
+It is not a stretch to say that LeBron was the most hyped prospect in decades when he entered the 2003 NBA Draft"
+1,0.8767158389091492,0.8767158389091492,He was on the cover of Sports Illustrated as a high school junior with the title of “Chosen One”
+1,0.9826617240905762,0.9826617240905762,"Born and raised in Akron, Ohio, James was drafted by the local NBA team, the Cleveland Cavaliers"
+-1,0.9830670952796936,-0.9830670952796936,It was almost too perfect for the storytellers of basketball
+-1,0.9664596915245056,-0.9664596915245056,"A basketball prodigy rises through the ranks of the high school game, gets drafted number one overall, and the team that takes him is his moribundly bad hometown team"
+1,0.9994301199913025,0.9994301199913025,"All of that is placed on the shoulders of an 18-year-old.
+
+And yet, despite all of that pressure, to be the savior and to be the second coming of what many consider the greatest player the league has ever seen, LeBron has lived up to the hype"
+1,0.7637247443199158,0.7637247443199158,"Some consider him the best basketball player they have ever seen, and many others have him as the second greatest, at worst those who don’t like him will begrudgingly admit he is one of the ten greatest players to ever play this game.
+
+Being a number one overall pick in the NBA is a difficult road to travel"
+1,0.999680757522583,0.999680757522583,"You are expected to elevate a team, to make them contenders, to bring on the good times"
+-1,0.9991649389266968,-0.9991649389266968,"And yet since LeBron, most of the number one overall picks have disappointed in one way or another"
+1,0.9699273705482483,0.9699273705482483,It is impossible to say that LeBron has despite leaving Cleveland in 2010 before winning a title there (he came back to “fulfill a promise” and won the team’s first title in 2016)
+1,0.99601811170578,0.99601811170578,"Here are LeBron’s achievements, which when put to paper are simply staggering:
+
+19-time All-Star
+1-time Scoring champion
+4-time NBA champion
+18-time All-NBA selection
+All-Rookie selection
+Rookie of the year
+6-time All-defense selection
+4-time League MVP
+4-time NBA Finals MVP
+Member of the NBA 75th Anniversary Team
+Yes, it is safe to say that LeBron was everything we hoped he would be and more.
+
+A Game of Narratives
+
+Image Credit: Basketball Forever
+The problem with being the “next Michael Jordan” is that you are a mere human being pitted against mythology"
+1,0.9953697323799133,0.9953697323799133,"I am 35 years old, which means that I was getting into basketball as Jordan and his Bulls were in the middle of their historic run to 6 NBA Finals wins in 8 years"
+1,0.99843829870224,0.99843829870224,"My father, who was no sports fan, was fascinated by Jordan and everything that he could do"
+1,0.999546468257904,0.999546468257904,"Even though I grew up a Knicks fan, there was respect and reverence for the greatness of Michael Jordan"
+1,0.9994820952415466,0.9994820952415466,The way he could score and the mentality that he brought to the game
+1,0.9940582513809204,0.9940582513809204,"The fact that he won so much and the way that he won made him a God to anyone who watched basketball in the 90s.
+
+Perhaps the closest we have come to a facsimile of Jordan was the late Kobe Bryant"
+1,0.9836204051971436,0.9836204051971436,"Kobe modeled his game after Michael from a shot selection, mentality, and intensity perspective"
+-1,0.9058363437652588,-0.9058363437652588,"Objectively a basketball genius, Kobe sometimes gets lost in the comparisons to Michael, because of the way that we simply revere Jordan and the Bulls of that era"
+1,0.9739882349967957,0.9739882349967957,"And while LeBron also grew up watching Jordan and emulated him to a certain extent (LeBron was 7 years old when the Bulls won their first title in 1991), he has chosen to not emulate him the way that Kobe did, for better or worse.
+
+But when a young player wears the number 23, is called the Chosen One, and enters the league as a high-flyer saving a lifeless midwest franchise, the comparisons will come naturally"
+-1,0.8980167508125305,-0.8980167508125305,And this has haunted LeBron throughout his entire career
+-1,0.8778608441352844,-0.8778608441352844,"Early in his career, he was criticized for passing to an open teammate in crunch time, for making the right basketball play"
+-1,0.981025755405426,-0.981025755405426,This is because we had idolized moments like Jordan’s final shot against Bryon Russell or Kobe’s clutch shots against the Portland Trail Blazers and thought that was how a superstar was supposed to close out a game
+1,0.9994235038757324,0.9994235038757324,"This sort of isolation play has been called hero ball and led to a generation of players that have emulated the style in the early 2000s as a tip of the cap to Jordan’s greatness.
+
+When James left Cleveland with the ill-fated Decision television special, the great defenders of Michael Jordan came out in full force"
+1,0.7990378737449646,0.7990378737449646,"The thought was that Jordan would have never left when he couldn’t get past Boston or Detroit, yet here was LeBron forming a super team in Miami with Dwayne Wade and Chris Bosh"
+-1,0.9973471164703369,-0.9973471164703369,They said Jordan would have never formed a super team with Larry Bird and Isaiah Thomas
+1,0.9962843656539917,0.9962843656539917,"When LeBron fans celebrated the fact that he went to 10 NBA Finals, a nearly impossible feat in a league filled with parity, Jordan fans countered with the infallible 6–0 in the Finals argument"
+-1,0.9113661646842957,-0.9113661646842957,"Every success that LeBron achieved has been colored with comparisons to Michael.
+
+Even as he approached the scoring title, having eclipsed Jordan’s point total in 2019, the notion was that if Jordan had never retired twice that it would not be a discussion"
+-1,0.9955794215202332,-0.9955794215202332,The moving of the goalposts when it comes to LeBron’s greatness has plagued the narratives about his accomplishments throughout his storied career
+1,0.999729573726654,0.999729573726654,"He has shown to be a testament to longevity and excellence in a league where the average career lasts 4.5 years.
+
+Longevity and Excellence
+
+Playing in the NBA for 20 years is no small feat"
+1,0.9716916084289551,0.9716916084289551,Only 9 other players besides LeBron have done it
+1,0.9992485642433167,0.9992485642433167,The difference for LeBron is that he is still at the top of his game in year 20
+1,0.9929785132408142,0.9929785132408142,"In Kareem Abdul-Jabbar’s 20th year, he averaged a career-low 10 points per game, Kevin Garnett was a bench player, and the once high-flying Vince Carter had entered the journeyman stage of his career"
+1,0.9696428179740906,0.9696428179740906,"Meanwhile, LeBron is 7th in the league in points per game with 30.2 (the second-highest average of his career behind his average last season of 30.3) and has a lot left to give to the game of basketball.
+
+This longevity is thanks to all the time and money that LeBron invests in maintaining his body, dedicating over $1.5 million annually to cryotherapy, hyperbaric chambers, personal chefs, and trainers"
+1,0.9987779259681702,0.9987779259681702,"He has never averaged less than 20 points per game, 5 rebounds per game, and 5 assists per game"
+1,0.9998618364334106,0.9998618364334106,This is sustained productivity and excellence that we have simply never seen before
+1,0.999301552772522,0.999301552772522,"As he is now the league’s all-time leading scorer, it is now a matter of how far he will clear Kareem’s total when he is finally ready to retire.
+
+This longevity also comes with mastering different ways to be dominant"
+1,0.995205819606781,0.995205819606781,"Early in his career, LeBron was profiled as a slasher, a super athletic wing player that used a killer first step to get to the basket"
+-1,0.9895007014274597,-0.9895007014274597,He was somewhat lanky without much offensive versatility
+1,0.9990168809890747,0.9990168809890747,"Then as he matured and went to Miami, he got serious about his body and about winning championships"
+1,0.9970536231994629,0.9970536231994629,This is where he turned into an elite two-way player that could score from more spots and could take on the assignment of guarding the opposing team’s best player
+1,0.9996156692504883,0.9996156692504883,"Then we have today’s LeBron, smart and calculating who can score from inside but also is now a proficient three-point shooter and distributor of the ball"
+1,0.9998641014099121,0.9998641014099121,"He has taken on all of these roles and flourished in them, a feat that many athletes across all sports struggle with.
+
+It is this willingness to adapt that makes LeBron so great"
+1,0.9988722205162048,0.9988722205162048,"We have all witnessed the transformation from a young teenager finding his way, to a man that has mastered the game of basketball"
+1,0.9994841814041138,0.9994841814041138,"And while he is no longer guaranteed to play over 72 games in a season (he hasn’t done that since 2018), he is still quite clearly a dominant force in the NBA.
+
+Model Citizen, Basketball Ambassador
+
+I mentioned “The Decision” earlier"
+1,0.9980903267860413,0.9980903267860413,This is a moment in LeBron’s career that he has admitted could have been handled differently
+-1,0.5493199825286865,-0.5493199825286865,It has been over a decade since it happened and that seems to be the moment that many LeBron detractors seem to hold on to the most
+-1,0.99978107213974,-0.99978107213974,People will claim that this moment ruined basketball as we knew it forever
+1,0.9995973706245422,0.9995973706245422,"While that is debatable (the current NBA product is objectively excellent), it did usher in the player empowerment movement that changed the landscape of player acquisitions in the league.
+
+LeBron showed players that it was okay to control your destiny and go to a preferred destination"
+1,0.9991247057914734,0.9991247057914734,He made it common practice for players to form relationships and want to form alliances together to win championships
+1,0.9991185069084167,0.9991185069084167,"And depending on how you feel about this, often colors how you feel about LeBron"
+-1,0.998562753200531,-0.998562753200531,"What is more telling though, is that this might be the biggest blemish on LeBron’s resume"
+1,0.9996533393859863,0.9996533393859863,"He has helped grow the game, has given back to his community in Akron through the I Promise School, has become an entrepreneur through various ventures, and is a dedicated father whom America can wrap its arms around"
+1,0.9945577383041382,0.9945577383041382,"It is tough today to find someone that is better suited as a role model for young kids than LeBron James.
+
+And much like Michael Jordan, LeBron has ushered in a generation of players that have emulated him and are trying to be the next LeBron"
+-1,0.9992353916168213,-0.9992353916168213,"When he entered the league in 2003, it was littered with shoot-first guards that were trying to be Jordan and big men trying to be Shaq"
+-1,0.8477687239646912,-0.8477687239646912,"Today, it is filled with 6’8” wings that are trying to be LeBron and small guards trying to shoot like Stephen Curry"
+1,0.9996089339256287,0.9996089339256287,James took the concept of the “point forward” and made it normal
+1,0.9987063407897949,0.9987063407897949,"We have seen forwards like Giannis Antetokounmpo, Jayson Tatum, and Julius Randle become offensive initiators in today’s game and that is thanks to LeBron James.
+
+For many years, I was a staunch Michael Jordan advocate"
+1,0.9992977380752563,0.9992977380752563,"And in many ways, I still am"
+-1,0.6848902106285095,-0.6848902106285095,Jordan had a majesty that I simply cannot get over
+1,0.9994847774505615,0.9994847774505615,"But ever since his historic championship performance in 2016, I have found myself more and more in awe of what LeBron James can do"
+-1,0.8603909611701965,-0.8603909611701965,"He is the only player in NBA history that has scored more than 30,000 points, grabbed 10,000 rebounds, and dished out 10,000 assists"
+1,0.9483669400215149,0.9483669400215149,And those numbers will only grow as he continues to operate at an incredibly high level
+1,0.9997091889381409,0.9997091889381409,"The achievement of passing Kareem Abdul-Jabbar is a notable one, a record that we thought might never be broken"
+1,0.9995821118354797,0.9995821118354797,"But like all the sky-high expectations placed upon LeBron James, he has cleared the bar of what we thought was possible"
+1,0.999734103679657,0.999734103679657,"Collectively as a basketball populous, we are witnessing levels of sustained greatness that we may never see again"
+1,0.9995675683021545,0.9995675683021545,"We should all take a moment to appreciate it while it is still here.
+"

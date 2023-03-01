@@ -189,9 +189,12 @@ def app():
                     with st.spinner('Training Linear Regression Model...'):
                         model = Ridge(alpha=0.5)
                         model.fit(X_train, y_train)
+                        y_pred = model.predict(X_test)
+                        y_pred = y_pred.reshape(-1,1)
+
                         r2 = model.score(X_test, y_test)
-                        mse = mean_squared_error(y_test, X_test)
-                        mae = mean_absolute_error(y_test, X_test)
+                        mse = mean_squared_error(y_test, y_pred)
+                        mae = mean_absolute_error(y_test, y_pred)
                         
                         st.success('Model Trained!')
                         st.markdown(f"$R^2$={np.round(r2, 3)}")
@@ -219,9 +222,11 @@ def app():
                 if st.button('Build Random Forest Regressor'):
                     with st.spinner('Training Random Forest Regression Model...'):
                         model = RandomForestRegressor().fit(X_train, y_train)
+                        y_pred = model.predict(X_test)
+                        y_pred = y_pred.reshape(-1,1)
                         r2 = model.score(X_test, y_test)
-                        mse = mean_squared_error(y_test, X_test)
-                        mae = mean_absolute_error(y_test, X_test)
+                        mse = mean_squared_error(y_test, y_pred)
+                        mae = mean_absolute_error(y_test, y_pred)
                         time.sleep(5)
                     st.success('Model Trained!')
                     st.markdown(f"$R^2$={np.round(r2, 3)}")
